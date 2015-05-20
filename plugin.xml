@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="de.bxservice.process.ImportCSVProcess"
+         name="de.bxservice.process.ImportCSVProcess"
+         point="org.adempiere.base.Process">
+      <process
+            class="de.bxservice.process.ImportCSVProcess">
+      </process>
+   </extension>
+
+</plugin>
