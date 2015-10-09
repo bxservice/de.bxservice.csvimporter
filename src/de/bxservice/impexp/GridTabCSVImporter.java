@@ -567,14 +567,6 @@ public class GridTabCSVImporter implements IGridTabImporter
 			trx=null;
 		}
 
-		trxName = getTrxName(gridTab.getTableName());
-		gridTab.getTableModel().setImportingMode(true,trxName);	
-		trx = Trx.get(trxName,true);
-		masterRecord = null;
-		rowsTmpResult.clear();
-		isMasterok = true;
-		isDetailok = true;
-
 	}//manageMasterTrx
 	
 	/**
